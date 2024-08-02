@@ -1,0 +1,90 @@
+/*  Global Styles
+----------------------------------*/
+html{
+  box-sizing: border-box;
+}
+*,*:before,:after{
+  box-sizing: inherit;
+}
+body{
+  color: #343434;
+  margin:0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+a{
+  color:#FFE66D;
+}
+a:hover{
+  text-decoration: none;
+}
+header{
+  background:#2F3861;
+  color: #F7FFF7;
+}
+.content{
+  max-width:900px;
+  width:85%;
+  margin:0 auto;
+  padding:60px 0;
+}
+h1{
+  margin:0;
+   font-family: "Caveat", cursive;
+   font-size: 80px;
+}
+h2{
+  margin:0;
+   font-family: "Caveat", cursive;
+   font-size: 45px;
+}
+p{
+  margin:0;
+   font-family: "Caveat", cursive;
+}
+.projects{
+  background: #F7FFF7;
+}
+.proj-items{
+  overflow: hidden;
+  border-bottom: 1px dashed grey;
+  padding:25px 0;
+}
+.proj-items img{
+  float: left;
+  margin:25px;
+}
+img{
+  width:250px;
+}
+h3 + p{
+  font-style: italic;
+}
+.proj-items:last-child{
+  border-bottom: none;
+}
+.edu{
+  background-image: url(../images/edu.jpg);
+  background-size: cover;
+}
+/*.projects a{
+  color:black;
+  background:#7FFFD4;
+  text-decoration: none;
+  padding:8px;
+  border-radius: 4px;
+}
+.projects a:hover{
+  background:rgba(25,55,25,40);*/
+footer{
+  background: #343434;
+  color: #F7FFF7;
+  text-align: center;
+}
+.contacts{
+  list-style-type:none;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
